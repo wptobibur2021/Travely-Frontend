@@ -19,16 +19,20 @@ const MyTour = () => {
         })
     }, [])
     // Post API
+    
     const removeTour = id =>{
-        const url = `https://lit-waters-50005.herokuapp.com/my-tour/remove/${id}`
-        axios.delete(url).then(res=>{
-            const result = res.data
-            if(result.deletedCount > 0){
-                const updateList  = tours.filter((t) => t._id !==id)
-                setTours(updateList)
-                deleteNotify()
-            }
-        })
+        const remove = window.confirm('Are you sure remove?')
+        if(remove){
+            const url = `https://lit-waters-50005.herokuapp.com/my-tour/remove/${id}`
+            axios.delete(url).then(res=>{
+                const result = res.data
+                if(result.deletedCount > 0){
+                    const updateList  = tours.filter((t) => t._id !==id)
+                    setTours(updateList)
+                    deleteNotify()
+                }
+            })
+        }
     }
     return (
         <PageLayout>
