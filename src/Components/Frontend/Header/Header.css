@@ -1,0 +1,48 @@
+img.logoImg {
+    width: 60px;
+    height: 50px;
+}
+
+.profileinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer
+}
+
+img.profileImg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+span.userName {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+header.headerSection {
+    background-color: #fff;
+    padding: 10px 0px;
+    justify-content:center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(124,124,124,0.54);
+    box-shadow: 0px 0px 30px 0px rgba(124,124,124,0.54);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.authHomeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+a.authBtn {
+    margin: 10px;
+    background-color: #e85f4b;
+    color: #010101;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 600;
+}

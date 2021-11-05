@@ -1,0 +1,101 @@
+svg.custom-icon {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #e85f4b;
+}
+.contact-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-info-area .single-contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 30px;
+    position: relative
+}
+section.contact-info-area {
+    padding: 100px 0px;
+}
+
+.contact-info-area .single-contact-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background-color: #e5e5e5
+}
+
+.contact-info-area .single-contact-info i {
+    display: block;
+    color: var(--black-color);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    line-height: 1;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    font-size: 50px
+}
+
+.contact-info-area .single-contact-info h3 {
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    margin-bottom: 15px
+}
+
+.contact-info-area .single-contact-info a {
+    color: var(--body-color);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    display: block
+}
+
+
+.contact-info-area .col-lg-4:first-child .single-contact-info::before {
+    display: none
+}
+
+.main-contact-area .contact-wrap {
+    max-width: unset
+}
+
+.main-contact-area .contact-wrap .section-title {
+    text-align: center !important;
+    max-width: 600px
+}
+
+.main-contact-area .contact-wrap .section-title h2 {
+    margin-bottom: 10px
+}
+
+.main-contact-area .contact-wrap .form-group {
+    margin-bottom: 30px
+}
+
+.main-contact-area .contact-wrap .default-btn {
+    margin: auto;
+    display: table;
+    cursor: pointer
+}
+
+.main-contact-area .contact-wrap .contact-form {
+    max-width: 800px;
+    margin: auto
+}
+
+.main-contact-area .contact-wrap .contact-form #msgSubmit {
+    position: unset;
+    text-align: center;
+    margin-top: 20px
+}
+
+.main-contact-area .contact-wrap .contact-form .hidden {
+    display: none
+}
+
+.main-contact-area .contact-wrap .form-control {
+    background-color: #f5f6fa;
+    border-color: 1px solid #e5e5e7
+}

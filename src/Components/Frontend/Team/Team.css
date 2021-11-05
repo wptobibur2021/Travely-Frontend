@@ -1,0 +1,19 @@
+.section-title {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.team-section-area {
+    background-color: #feeded;
+    padding: 50px 0px;
+}
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.smItem {
+    font-size: 25px;
+    margin: 0px 5px;
+    color: #e85f4b;
+}

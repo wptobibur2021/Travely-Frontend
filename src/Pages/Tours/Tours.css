@@ -1,0 +1,49 @@
+img.tourSlider {
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.tourInfoDetails {
+    background-color: #f6a59a;
+    padding: 30px;
+}
+
+.tourName h1 {
+    font-size: 25px;
+}
+
+.tourIconInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+svg.iconTour {
+    font-size: 35px;
+    color: #e8604c;
+}
+.tourOverview {
+    padding: 50px;
+}
+
+.tourBooking {
+    background-color: #eaa8a8;
+    padding: 50px;
+    border-radius: 10px;
+}
+.form-control:focus {
+    border-color: #e9ecef !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.form-select:focus {
+    border-color: #d8dbdd !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    box-shadow: none !important;
+}
+.myTourConainer {
+    padding: 50px 0px;
+}

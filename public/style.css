@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}
+.sections-padding{
+    padding: 50px 0px
+}
+.form-control:focus {
+    border-color: #ced4da !important;
+    outline: none;
+    box-shadow: none !important;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #ffb607;
+    border-color: #ffb607;
+    box-shadow: none !important;
+}
+.Toastify {
+    z-index: 99999999999;
+}

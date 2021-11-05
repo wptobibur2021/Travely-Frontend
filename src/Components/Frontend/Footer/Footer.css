@@ -1,0 +1,32 @@
+.footer-section-area {
+    background-color: #101010;
+    color: #fff;
+    padding: 50px 0px;
+}
+ul.footerWidgets {
+    padding: 0px;
+}
+.footerIcon{
+    color: #e85f4b;
+    margin-right: 5px;
+    font-size: 20px;
+}
+li.widgetsItem {
+    margin-bottom: 15px;
+}
+ul.linkItems {
+    padding: 0;
+}
+li.item a {
+    color: #fff;
+}
+
+li.item {
+    border-bottom: 1px dashed #e85f4b;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+h3.footer-title {
+    border-bottom: 1px solid #e85f4b;
+    margin-bottom: 25px;
+}
