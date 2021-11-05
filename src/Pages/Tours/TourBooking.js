@@ -17,7 +17,7 @@ const TourBooking = ({tour}) => {
         data.tourid = tour
         data.userEmail = user.email
         data.userId = user.uid
-        const url = "http://localhost:8000/tour-booking"
+        const url = "https://lit-waters-50005.herokuapp.com/tour-booking"
         axios.post(url, data).then(res =>{
             const result = res.data
             if(result.insertedId){

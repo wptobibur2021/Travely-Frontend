@@ -9,7 +9,7 @@ import axios from "axios";
 const Details = () =>{
     const {id} = useParams()
     const [tour, setTour] = useState();
-    const viewUrl = `http://localhost:8000/tours/details/${id}`;
+    const viewUrl = `https://lit-waters-50005.herokuapp.com/tours/details/${id}`;
     console.log('Single ID:', viewUrl)
     useEffect(()=>{
         axios.get(viewUrl).then(res=>{

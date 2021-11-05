@@ -7,7 +7,7 @@ import Single from "./Single";
 const Services = () =>{
     const [tours, setTours] = useState()
     useEffect(()=>{
-        const url = "http://localhost:8000/all-tours";
+        const url = "https://lit-waters-50005.herokuapp.com/all-tours";
         axios.get(url).then(res=>{
            setTours(res.data)
         })

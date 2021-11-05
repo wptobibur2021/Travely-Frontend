@@ -9,7 +9,7 @@ export default function Add() {
     const {successNotify} = useNotify()
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        const url = "http://localhost:8000/add-tour"
+        const url = "https://lit-waters-50005.herokuapp.com/add-tour"
         axios.post(url, data).then(res=>{
             const result = res.data
             if(result.insertedId){

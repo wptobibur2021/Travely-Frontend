@@ -10,7 +10,7 @@ const MyTour = () => {
     const {deleteNotify} = useNotify()
     const[tours, setTours] = useState()
     const {user} = useAuth();
-    const url = `http://localhost:8000/my-tour/${user.uid}`
+    const url = `https://lit-waters-50005.herokuapp.com/my-tour/${user.uid}`
     console.log('User Url: ', url)
     //Get API
     useEffect(()=>{
@@ -20,7 +20,7 @@ const MyTour = () => {
     }, [])
     // Post API
     const removeTour = id =>{
-        const url = `http://localhost:8000/my-tour/remove/${id}`
+        const url = `https://lit-waters-50005.herokuapp.com/my-tour/remove/${id}`
         axios.delete(url).then(res=>{
             const result = res.data
             if(result.deletedCount > 0){
